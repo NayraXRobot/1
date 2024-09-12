@@ -74,7 +74,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "7269619658").split())
 )  # Input type must be interger
 
 
@@ -95,7 +95,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/NayraXRobot/1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -108,15 +108,15 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/TELE_SONG_BOT"
+)  # Example:- https://t.me/TELE_SONG_BOT
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/ll_SUKOON_ZONE_GROUP_ll"
+)  # Example:- https://t.me/ll_SUKOON_ZONE_GROUP_ll
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_GROUP", "https://t.me/ll_SUKOON_ZONE_GROUP_ll"
+)  # Example:- https://t.me/ll_SUKOON_ZONE_GROUP_ll
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -138,7 +138,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/notreallyshikhar/YukkiMusicBot")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -211,12 +211,12 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg",
+    "https://telegra.ph/file/a1e0ee91aed527ad0b28d.mp4",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://telegra.ph/file/a1e0ee91aed527ad0b28d.mp4",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -312,7 +312,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg":
+    if PING_IMG_URL != "https://telegra.ph/file/a1e0ee91aed527ad0b28d.mp4":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
